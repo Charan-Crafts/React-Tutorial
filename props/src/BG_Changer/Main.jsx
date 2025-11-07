@@ -15,7 +15,7 @@ const Main = () => {
     console.log(background);
     
   return (
-    <div className={`bg-${background}-500 h-screen`}>
+    <div className={`bg-${background}-500 h-screen duration-200`}>
       <Bar colors={colors} setBackground={setBackground}/>
     </div>
   );

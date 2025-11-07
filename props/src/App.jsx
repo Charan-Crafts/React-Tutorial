@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from "./components/Card"
-import Main from './BG_Changer/Main';
+
+import PasswordGenerator from './PasswordGenerator/Components/PasswordGenerator';
 const App = () => {
 
   const patients = [
@@ -33,7 +33,7 @@ const App = () => {
 
   return (
     <div>
-      <Main/>
+      <PasswordGenerator></PasswordGenerator>
     </div>
   );
 }

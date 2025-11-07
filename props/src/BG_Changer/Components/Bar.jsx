@@ -18,7 +18,7 @@ const Bar = ({colors,setBackground}) => {
             <div className='flex  text-xl justify-around'>
                 {
                     colorsArr.map((color, idx) =>
-                        <button key={idx} className={`bg-${color}-500 cursor-pointer text-black-50 px-10 py-2 mb-4 rounded-2xl`} onClick={(e)=>handleChange(e)} name={color}>{color}</button>
+                        <button key={idx} className={`bg-${color}-500 cursor-pointer text-black-50 px-10 py-2 mb-4 rounded-xl outline-none font-sans`} onClick={(e)=>handleChange(e)} name={color}>{color}</button>
                     )
 
                 }
