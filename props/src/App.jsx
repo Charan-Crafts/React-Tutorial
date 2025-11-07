@@ -1,6 +1,7 @@
 import React from 'react';
 
 import PasswordGenerator from './PasswordGenerator/Components/PasswordGenerator';
+import CurrencyConvertor from './currencyConverter/CurrencyConvertor';
 const App = () => {
 
   const patients = [
@@ -33,7 +34,7 @@ const App = () => {
 
   return (
     <div>
-      <PasswordGenerator></PasswordGenerator>
+      <CurrencyConvertor></CurrencyConvertor>
     </div>
   );
 }
