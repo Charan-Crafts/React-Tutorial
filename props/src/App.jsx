@@ -1,9 +1,8 @@
-import React from 'react';
-import Redux from './redux/Redux';
+import ReactRedux from "./react-redux-todo/ReactRedux";
 const App = () => {
   return (
     <div>
-      <Redux />
+      <ReactRedux/>
     </div>
   );
 }
