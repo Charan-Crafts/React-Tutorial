@@ -1,9 +1,9 @@
 import React from 'react';
-import Todo from './todo/Todo';
+import Redux from './redux/Redux';
 const App = () => {
   return (
     <div>
-      <Todo></Todo>
+      <Redux />
     </div>
   );
 }
